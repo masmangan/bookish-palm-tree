@@ -1,0 +1,7 @@
+@startuml
+[*] --> Empty
+[*] --> Weed
+Empty --> Plant
+Plant --> Grow
+Grow --> Harvest
+@enduml
