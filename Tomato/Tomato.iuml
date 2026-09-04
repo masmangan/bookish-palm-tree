@@ -1,7 +1,9 @@
 @startuml
 [*] --> Empty
-[*] --> Weed
 Empty --> Plant
-Plant --> Grow
-Grow --> Harvest
+Plant --> Water
+Water --> 2dayswihtoutWater
+2dayswihtoutWater --> Weed
+Water --> Harvest
+Harvest --> Fertilize
 @enduml
