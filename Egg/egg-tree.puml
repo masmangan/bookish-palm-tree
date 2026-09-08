@@ -1,0 +1,9 @@
+@startuml
+top to bottom direction
+
+rectangle "Empty_0" as E0
+rectangle "Coop_0" as C0
+
+E0 --> C0 : BUILD_COOP
+
+@enduml
