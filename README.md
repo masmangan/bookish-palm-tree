@@ -18,18 +18,9 @@ V&amp;V, 2026/2, Exercício E3.
 
 ### Árvore de caminhos
 
-```plantuml
-@startuml
-top to bottom direction
+![Egg Tree Path](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/masmangan/bookish-palm-tree/refs/heads/main/Egg/egg-tree.puml)
 
-rectangle "Empty_0" as E0
-rectangle "Coop_0" as C0
-
-E0 --> C0 : BUILD_COOP
-
-@enduml
-```
-
+ 
 
 ## Tomato
 
