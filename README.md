@@ -28,6 +28,8 @@ rectangle "Coop_0" as C0
 E0 --> C0 : BUILD_COOP
 
 @enduml
+```
+
 
 ## Tomato
 
