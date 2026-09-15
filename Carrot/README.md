@@ -30,27 +30,7 @@ stateDiagram-v2
 
 ### Diagrama em PlantUML
 
-```plantuml
-@startuml
-title Maquina de Estados - Cenoura (CARROT) - Kaggriculture
-
-[*] --> SementeDisponivel
-
-SementeDisponivel --> Plantada : PLANT
-Plantada --> Plantada : WATER
-Plantada --> Colhivel : [idade >= 2 dias]
-Plantada --> Erva : [2 dias sem regar]
-Colhivel --> Colhivel : WATER / FERTILIZE
-Colhivel --> Colhida : HARVEST
-Colhivel --> Erva : [decaimento ou 2 dias sem regar]
-Colhida --> NoGalpao : DROP
-NoGalpao --> Vendida : SELL
-Erva --> Removida : DIG
-Vendida --> [*]
-Removida --> [*]
-
-@enduml
-```
+![Carrot State Machine](https://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/masmangan/bookish-palm-tree/refs/heads/main/Carrot/Carrot.iuml)
 
 ---
 
