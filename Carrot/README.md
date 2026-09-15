@@ -30,6 +30,7 @@ stateDiagram-v2
 
 ### Diagrama em PlantUML
 
+```plantuml
 @startuml
 title Maquina de Estados - Cenoura (CARROT) - Kaggriculture
 
@@ -49,6 +50,7 @@ Vendida --> [*]
 Removida --> [*]
 
 @enduml
+```
 
 ---
 
